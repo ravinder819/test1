@@ -1,0 +1,17 @@
+class Book:
+    def __init__(self, book_name, author_name,library_name):
+        self.book_name = book_name
+        self.author_name = author_name
+        self.library_name = library_name
+
+    def issue_book(self):
+         print("Book Issued!")
+         print("Library:", self.library_name)
+         print("Book Name:", self.book_name)
+         print("Author:", self.author_name)
+
+book1=Book("Python", "Ravinder","my library")
+book1.issue_book()
+
+book2=Book("c++", "Singh","my library")
+book2.issue_book()

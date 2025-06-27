@@ -1,0 +1,5 @@
+stack=[]
+stack.append("hello")
+stack.append("world")
+last=stack.pop()
+print(stack[len(stack)-1])
